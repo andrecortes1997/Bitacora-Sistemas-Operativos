@@ -1,6 +1,6 @@
 # Sistemas Operativos Bitacora de Comandos
 --------------------------------------------
-![Ubuntu](C:\Users\andre\OneDrive\Escritorio\ubuntu.png) 
+![Ubuntu](https://github.com/andrecortes1997/Bitacora-Sistemas-Operativos/blob/master/ubuntu.png?raw=true) 
 ## Lista de Comandos
 
 
