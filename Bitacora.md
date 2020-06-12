@@ -1,6 +1,6 @@
 # Sistemas Operativos Bitacora de Comandos
 --------------------------------------------
-![Ubuntu](https://github.com/andrecortes1997/Bitacora-Sistemas-Operativos/blob/master/ubuntu.png?raw=true) 
+![Ubuntu](https://github.com/andrecortes1997/Bitacora-Sistemas-Operativos/blob/master/Ubuntu-Vertical-white-br-orange.sh_.png?raw=true) 
 ## Lista de Comandos
 
 | Comandos 				| Descripcion |  Ejemplos   |
