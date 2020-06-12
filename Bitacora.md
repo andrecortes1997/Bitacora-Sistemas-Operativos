@@ -1,6 +1,6 @@
 # Sistemas Operativos Bitacora de Comandos
 --------------------------------------------
-![Ubuntu](https://i1.wp.com/esencialsistemas.com/wp-content/images/ubuntu.png?fit=1191%2C842&ssl=1) 
+![Ubuntu](C:\Users\andre\OneDrive\Escritorio\ubuntu.png) 
 ## Lista de Comandos
 
 
