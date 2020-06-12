@@ -4,11 +4,11 @@
 
 
 
-| Commands 				| Description |  Example   |
-| ------   				| ----------- | ---------- |
-| `sudo apt install`   	| path to data files to supply the data that will be passed into templates. |
-| engine 				| engine to be used for processing templates. Handlebars is the default. |
-| ext    				| extension to be used for dest files. |
+| Comandos 				| Descripcion |  Ejemplos   |
+| ------   			 	| ----------- | ----------- |
+| `sudo apt install`   	| La utilidad `apt install` es un programa de línea de comandos de administración de paquetes potente y gratuito, que se utiliza para trabajar con la biblioteca APT (Advanced Packaging Tool) de Ubuntu para realizar la instalación de nuevos paquetes de software. | `$ sudo apt install wireshark` |
+| `sudo apt update`  	| El comando se utiliza para descargar información del paquete de todas las fuentes configuradas. |
+| `sudop apt upgrade`   | Se utiliza para instalar actualizaciones disponibles de todos los paquetes actualmente instalados en el sistema desde las fuentes configuradas a través del archivo sources.list.file. |
 
 `sudo apt install`
 ```bash
