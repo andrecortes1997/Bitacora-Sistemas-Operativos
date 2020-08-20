@@ -18,7 +18,6 @@
 | `top` | mostrar las tareas de linux usando la mayoría cpu. |`$ top`|
 | `ps -aux` | Mostrar Procesos corriendo . |`$ ps -aux`|
 | `ps -aux grep` | ps -aux con grep ayuda a buscar algo especifico en la lista de procesos . |`$ ps -aux grep firefox `|
-| `cat` | Mostrar contenido de archivos. |`$ cat /proc/cpuinfo`|
 | `adduser ` | agregar usuarios. |`$ adduser andre`|
 
 ![Archivos y Directorios](https://icons.iconarchive.com/icons/franksouza183/fs/256/Places-folder-ubuntu-icon.png)
@@ -43,6 +42,31 @@
 | `alias` | Son como atajos personalizados que se utilizan para representar un comando (o un conjunto de comandos) ejecutados con o sin opciones personalizadas. |`$ alias wr=”cd /var/www/html”`|
 | `history ` | Listado de todos los comandos digitados. |`$ history`|
 | `!! ` | Correr ultimo comando utilizado. |`$ !!`|
+| `cat` | Mostrar contenido de archivos. |`$ cat /proc/cpuinfo`|
+
+![Archivos y Directorios](https://www.faqforge.com/wp-content/uploads/2017/03/power-off-dialog-ubuntu-button-press.png)
+
+## Apagar (Reiniciar Sistema o Cerrar Sesión)
+
+| `shutdown ` | Apagar el sistema. |`$ shutdown -h now`|
+| `reboot` | Reiniciar el sistema. |`$ reboot `|
+| `logout` | Cerrar sesión. |`$ logout`|
+| `shutdown -h hours:minutes &` | Apagado planificado del sistema. |`$ shutdown -h hours:minutes & `|
+| `halt` | Apagar el sistema. |`$ halt`|
+| `shutdown -c` | Cancelar un apagado planificado del sistema. |`$ shutdown -c`|
+
+
+
+
+| `` | . |`$ `|
+| `` | . |`$ `|
+| `` | . |`$ `|
+| `` | . |`$ `|
+| `` | . |`$ `|
+| `` | . |`$ `|
+| `` | . |`$ `|
+
+
 
 
 ```bash
