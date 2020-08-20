@@ -1,7 +1,7 @@
 # Sistemas Operativos Bitacora de Comandos
 --------------------------------------------
 ![Ubuntu](https://github.com/andrecortes1997/Bitacora-Sistemas-Operativos/blob/master/Ubuntu-Vertical-white-br-orange.sh_.png?raw=true) 
-# Lista de Comandos 8-)
+# Lista de Comandos
 
 ## Monitoreo y Sistema
 | Comandos 				| Descripcion |  Ejemplos   |
@@ -18,6 +18,8 @@
 | `ps -aux grep` | ps -aux con grep ayuda a buscar algo especifico en la lista de procesos . |`$ ps -aux grep firefox `|
 | `cat` | Mostrar contenido de archivos. |`$ cat /proc/cpuinfo`|
 | `adduser ` | agregar usuarios. |`$ adduser andre`|
+
+![Archivos y Directorios](https://icons.iconarchive.com/icons/franksouza183/fs/256/Places-folder-ubuntu-icon.png)
 
 ## Archivos y Directorios
 
