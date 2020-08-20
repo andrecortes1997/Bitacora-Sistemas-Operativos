@@ -1,7 +1,7 @@
 # Sistemas Operativos Bitacora de Comandos
 --------------------------------------------
 ![Ubuntu](https://github.com/andrecortes1997/Bitacora-Sistemas-Operativos/blob/master/Ubuntu-Vertical-white-br-orange.sh_.png?raw=true) 
-## Lista de Comandos
+# Lista de Comandos 8-)
 
 ## Monitoreo y Sistema
 | Comandos 				| Descripcion |  Ejemplos   |
@@ -37,8 +37,8 @@
 | `tail ` | Ver las 10 últimas líneas de un fichero. |`$ tail -n 10 /var/log/syslog`|
 | `head` | Ver las 10 primeras líneas de un fichero. |`$ head -10 file1`|
 | `alias` | Son como atajos personalizados que se utilizan para representar un comando (o un conjunto de comandos) ejecutados con o sin opciones personalizadas. |`$ alias wr=”cd /var/www/html”`|
-| `history ` | listado de todos los comandos digitados. |`$ history`|
-| `!! ` | correr ultimo comando utiliado. |`$ !!`|
+| `history ` | Listado de todos los comandos digitados. |`$ history`|
+| `!! ` | Correr ultimo comando utilizado. |`$ !!`|
 
 
 ```bash
