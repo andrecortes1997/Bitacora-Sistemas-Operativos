@@ -3,6 +3,8 @@
 ![Ubuntu](https://github.com/andrecortes1997/Bitacora-Sistemas-Operativos/blob/master/Ubuntu-Vertical-white-br-orange.sh_.png?raw=true) 
 # Lista de Comandos
 
+![Monitoreo y Sistema](https://www.uthdynasty.com/wp-content/uploads/2014/12/Data-Mining.png)
+
 ## Monitoreo y Sistema
 | Comandos 				| Descripcion |  Ejemplos   |
 | ------   			 	| ----------- | ----------- |
