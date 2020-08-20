@@ -57,18 +57,25 @@
 | `halt` | Apagar el sistema. |`$ halt`|
 | `shutdown -c` | Cancelar un apagado planificado del sistema. |`$ shutdown -c`|
 
+![Archivos y Directorios](https://icons.iconarchive.com/icons/umut-pulat/tulliana-2/128/cd-writer-mount-icon.png)
+## Montando un sistema de ficheros
+
+| Comandos 				| Descripcion |  Ejemplos   |
+| ------   			 	| ----------- | ----------- |
+| `mount` | Montar un disco llamado hda2. |`$ mount /dev/hda2 /mnt/hda2 `|
+| `umount` |  Desmontar un disco llamado hda2. |`$ umount /dev/hda2`|
+| `mount /dev/sda1 /mnt/usbdisk ` | Montar un usb pen-drive o una memoria. |`$ mount /dev/sda1 /mnt/usbdisk `|
 
 
+![Espacio de Disco](https://icon-library.com/images/linux-server-icon/linux-server-icon-2.jpg)
+## Espacio de Disco
 
-| `` | . |`$ `|
-| `` | . |`$ `|
-| `` | . |`$ `|
-| `` | . |`$ `|
-| `` | . |`$ `|
-| `` | . |`$ `|
-| `` | . |`$ `|
-
-
+| Comandos 				| Descripcion |  Ejemplos   |
+| ------   			 	| ----------- | ----------- |
+| `df -h` | Mostrar una lista de las particiones montadas. |`$ df -h`|
+| `du -sh dir1:` | Estimar el espacio usado por el directorio ‘dir1′. |`$ du -sh dir1: `|
+| `du -sk` | Mostrar el tamaño de los ficheros y directorios ordenados
+por tamaño.. |`$ du -sk * "pipe" sort -rn `|
 
 
 ```bash
