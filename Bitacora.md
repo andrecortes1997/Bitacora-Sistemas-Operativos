@@ -9,10 +9,14 @@
 | `sudo apt update`  	| El comando se utiliza para descargar información del paquete de todas las fuentes configuradas. | `$ sudo apt update` |
 | `sudop apt upgrade`   | Se utiliza para instalar actualizaciones disponibles de todos los paquetes actualmente instalados en el sistema desde las fuentes configuradas a través del archivo sources.list.file. |`$ sudop apt upgrade`|
 | `lsb_release -a` | Sirve para saber la version de ubuntu . |`$ lsb_release -a`|
-## Lista de Comandos
+
+## Archivos y Directorios
+
+| Comandos 				| Descripcion |  Ejemplos   |
+| ------   			 	| ----------- | ----------- |
 | `ls` | Listar carpetas en cualquier ruta. |`$ ls -l /usr/bin `|
 | `ls -l` | Muestra las carpetas en forma de lista con mas detalles (Tamaño, fecha). |`$ ls -l`|
-| `ls -a` | Muestra las carpteas  y los archivos ocultos. |`ls -a`|
+| `ls -a` | Muestra las carpteas  y los archivos ocultos. |`$ ls -a`|
 | `mkdir` | Crear carpetas. |`$ mkdir "nombre de la carpeta"`|
 | `pwd` | Muestra la ruta del directorio actual. |`$ pwd`|
 | `touch ` | Comando para crear archivos [Nombre del archivo y extension] . |`$ touch helloworld.py`|
