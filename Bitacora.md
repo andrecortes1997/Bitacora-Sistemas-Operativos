@@ -48,6 +48,8 @@
 
 ## Apagar (Reiniciar Sistema o Cerrar Sesión)
 
+| Comandos 				| Descripcion |  Ejemplos   |
+| ------   			 	| ----------- | ----------- |
 | `shutdown ` | Apagar el sistema. |`$ shutdown -h now`|
 | `reboot` | Reiniciar el sistema. |`$ reboot `|
 | `logout` | Cerrar sesión. |`$ logout`|
