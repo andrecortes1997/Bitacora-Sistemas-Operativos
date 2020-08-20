@@ -9,8 +9,8 @@
 | `sudo apt update`  	| El comando se utiliza para descargar información del paquete de todas las fuentes configuradas. | `$ sudo apt update` |
 | `sudop apt upgrade`   | Se utiliza para instalar actualizaciones disponibles de todos los paquetes actualmente instalados en el sistema desde las fuentes configuradas a través del archivo sources.list.file. |`$ sudop apt upgrade`|
 | `lsb_release -a` | Sirve para saber la version de ubuntu . |`$ lsb_release -a`|
+| `uname -a` | Nos muestra la version actual del Kernel  . |`$ uname -a`|
 
-`sudo apt install`
 ```bash
 ls /Documents
 ```
