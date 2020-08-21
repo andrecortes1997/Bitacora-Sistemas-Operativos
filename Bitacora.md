@@ -1,6 +1,6 @@
 # Sistemas Operativos Bitacora de Comandos
 --------------------------------------------
-![Ubuntu](https://github.com/andrecortes1997/Bitacora-Sistemas-Operativos/blob/master/Ubuntu-Vertical-white-br-orange.sh_.png?raw=true) 
+![Ubuntu](https://images.vexels.com/media/users/3/140692/isolated/preview/72d1f12edf758d24f5b6db73bac4f297-logo-de-linux-by-vexels.png) 
 # Lista de Comandos
 
 ![Monitoreo y Sistema](https://www.uthdynasty.com/wp-content/uploads/2014/12/Data-Mining.png)
@@ -131,7 +131,6 @@
 | `ip link show` | Mostar el estado de enlace de todas las interfaces. |`$ ip link show`|
 | `netstat ` | Mostrar todas las conexiones de red activas y sus PID. |`$ netstat -tup` |
 
-```bash
-ls /Documents
-```
-| `` |  |`$ `|
+::: warning
+*LINUX COMMANDS*
+:::
