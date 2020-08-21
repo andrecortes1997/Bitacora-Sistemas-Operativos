@@ -117,7 +117,7 @@
 | `rar a file1.rar` | Crear un fichero rar llamado ‘file1.rar’. |`$ rar a file1.rar`|
 | `.rar x file1.rar` | Descomprimir archivo rar |`$ .rar x file1.rar`|
 
-![Archivos y Ficheros comprimidos](https://icons.iconarchive.com/icons/guillendesign/variations-2/256/Network-On-icon.png)
+![RED](https://icons.iconarchive.com/icons/guillendesign/variations-2/256/Network-On-icon.png)
 ## RED
 | Comandos 				| Descripcion |  Ejemplos   |
 | ------   			 	| ----------- | ----------- |
