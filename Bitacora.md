@@ -131,6 +131,4 @@
 | `ip link show` | Mostar el estado de enlace de todas las interfaces. |`$ ip link show`|
 | `netstat ` | Mostrar todas las conexiones de red activas y sus PID. |`$ netstat -tup` |
 
-::: warning
-*here be dragons*
-:::
+`markdown-it`
