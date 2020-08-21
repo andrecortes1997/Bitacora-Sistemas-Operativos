@@ -18,7 +18,6 @@
 | `top` | mostrar las tareas de linux usando la mayoría cpu. |`$ top`|
 | `ps -aux` | Mostrar Procesos corriendo . |`$ ps -aux`|
 | `ps -aux grep` | ps -aux con grep ayuda a buscar algo especifico en la lista de procesos . |`$ ps -aux grep firefox `|
-| `adduser ` | agregar usuarios. |`$ adduser andre`|
 
 ![Archivos y Directorios](https://icons.iconarchive.com/icons/franksouza183/fs/256/Places-folder-ubuntu-icon.png)
 
@@ -74,8 +73,22 @@
 | ------   			 	| ----------- | ----------- |
 | `df -h` | Mostrar una lista de las particiones montadas. |`$ df -h`|
 | `du -sh dir1:` | Estimar el espacio usado por el directorio ‘dir1′. |`$ du -sh dir1: `|
-| `du -sk` | Mostrar el tamaño de los ficheros y directorios ordenados
-por tamaño.. |`$ du -sk * "pipe" sort -rn `|
+| `du -sk` | Mostrar el tamaño de los ficheros y directorios ordenados por tamaño. |`$ du -sk * "pipe" sort -rn `|
+
+![Usuarios y Grupos](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJ6-IWIzvvi3l0tWgoqbtbQN6gukza_fYICg&usqp=CAU)
+## Usuarios y Grupos
+
+| Comandos 				| Descripcion |  Ejemplos   |
+| ------   			 	| ----------- | ----------- |
+| `groupadd` | Crea un nuevo grupo. |`$ groupadd nombre_del_grupo `|
+| `groupdel` | Borrar un grupo. |`$ groupdel nombre_del_grupo`|
+| `adduser ` | Agregar usuarios. |`$ adduser andre`|
+| `userdel ` |  Borrar un usuario (‘-r’ elimina el directorio Home).. |`$ userdel -r user1`|
+| `passwd` | Cambiar contraseña. |`$ passwd`|
+| `passwd user1` | Cambiar la contraseña de un usuario (solamente por root).. |`$ passwd user1`|
+| `pwck` | Chequear la sintaxis correcta el formato de fichero de ‘/etc/passwd’ y la existencia de usuarios.. |`$ pwck`|
+| `grpck` |  chequear la sintaxis correcta y el formato del fichero ‘/etc/group’ y la existencia de grupos. |`$ grpck`|
+| `newgrp` |  registra a un nuevo grupo para cambiar el grupo predeterminado de los ficheros creados recientemente. |`$ newgrp nombre_grupo`|
 
 
 ```bash
