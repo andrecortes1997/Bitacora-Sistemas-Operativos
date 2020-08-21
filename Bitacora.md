@@ -42,8 +42,20 @@
 | `history ` | Listado de todos los comandos digitados. |`$ history`|
 | `!! ` | Correr ultimo comando utilizado. |`$ !!`|
 | `cat` | Mostrar contenido de archivos. |`$ cat /proc/cpuinfo`|
+| `mv` | Renombrar o mover un fichero o carpeta (directorio) |`$ .mv dir1 new_dir`|
+| `find` |  Buscar fichero y directorio a partir de la raíz del sistema. |`$ find / -name file1`|
+| `find` | Buscar ficheros y directorios pertenecientes al usuario ‘user1′. |`$ find / -user user1`|
+| `locate` | Encuentra ficheros con extensión ‘.ps’ ejecutados primeramente con el command ‘updatedb’. |`$ locate \ *.ps`|
+| `ls -lh` | Mostrar permisos. |`$ ls -lh`|
+| `chmod ` |  Colocar permisos de lectura ®, escritura (w) y ejecución(x) al propietario (u), al grupo (g) y a otros (o) sobre el directorio ‘directory1′. |`$ chmod ugo+rwx directory1`|
+| `chmod ` |  Quitar permiso de lectura ®, escritura (w) y (x) ejecución al grupo (g) y otros (o) sobre el directorio ‘directory1′. |`$ chmod go-rwx directory1`|
+| `chown` |  Cambiar el dueño de un fichero. |`$ chown user1 file1`|
+| `chown` | Cambiar el propietario de un directorio y de todos los ficheros y directorios contenidos dentro. |`$ chown -R user1 directory1`|
+| `dpkg` | Instalar / actualizar un paquete deb. |`$ dpkg -i package.deb`|
+| `dpkg` | Eliminar un paquete deb del sistema |`$ dpkg -r package_name`|
 
-![Archivos y Directorios](https://www.faqforge.com/wp-content/uploads/2017/03/power-off-dialog-ubuntu-button-press.png)
+
+![Apagar (Reiniciar Sistema o Cerrar Sesión)](https://www.faqforge.com/wp-content/uploads/2017/03/power-off-dialog-ubuntu-button-press.png)
 
 ## Apagar (Reiniciar Sistema o Cerrar Sesión)
 
@@ -56,7 +68,7 @@
 | `halt` | Apagar el sistema. |`$ halt`|
 | `shutdown -c` | Cancelar un apagado planificado del sistema. |`$ shutdown -c`|
 
-![Archivos y Directorios](https://icons.iconarchive.com/icons/umut-pulat/tulliana-2/128/cd-writer-mount-icon.png)
+![Montando un sistema de ficheros](https://icons.iconarchive.com/icons/umut-pulat/tulliana-2/128/cd-writer-mount-icon.png)
 ## Montando un sistema de ficheros
 
 | Comandos 				| Descripcion |  Ejemplos   |
@@ -87,10 +99,39 @@
 | `passwd` | Cambiar contraseña. |`$ passwd`|
 | `passwd user1` | Cambiar la contraseña de un usuario (solamente por root).. |`$ passwd user1`|
 | `pwck` | Chequear la sintaxis correcta el formato de fichero de ‘/etc/passwd’ y la existencia de usuarios.. |`$ pwck`|
-| `grpck` |  chequear la sintaxis correcta y el formato del fichero ‘/etc/group’ y la existencia de grupos. |`$ grpck`|
-| `newgrp` |  registra a un nuevo grupo para cambiar el grupo predeterminado de los ficheros creados recientemente. |`$ newgrp nombre_grupo`|
+| `grpck` |  Chequear la sintaxis correcta y el formato del fichero ‘/etc/group’ y la existencia de grupos. |`$ grpck`|
+| `newgrp` |  Registra a un nuevo grupo para cambiar el grupo predeterminado de los ficheros creados recientemente. |`$ newgrp nombre_grupo`|
 
+
+![Archivos y Ficheros comprimidos](https://icons.iconarchive.com/icons/treetog/junior/256/document-compress-icon.png)
+## Archivos y Ficheros comprimidos
+
+| Comandos 				| Descripcion |  Ejemplos   |
+| ------   			 	| ----------- | ----------- |
+| `bunzip2` | Descomprime in fichero llamado ‘file1.bz2′ |`$ bunzip2 file1.bz2`|
+| `bzip2` | Comprime un fichero llamado ‘file1′.|`$ bzip2 file1`|
+| `gunzip` | Descomprime un fichero llamado ‘file1.gz’. |`$ gunzip file1.gz`|
+| `gzip` | Comprime un fichero llamado ‘file1′ |`$ gzip file1:`|
+| `unzip` |  |`$ unzip file1.zip`|
+| `zip` | Descomprimir un archivo zip.|`$ .zip file1.zip`|
+| `rar a file1.rar` | Crear un fichero rar llamado ‘file1.rar’. |`$ rar a file1.rar`|
+| `.rar x file1.rar` | Descomprimir archivo rar |`$ .rar x file1.rar`|
+
+![Archivos y Ficheros comprimidos](https://icons.iconarchive.com/icons/guillendesign/variations-2/256/Network-On-icon.png)
+## RED
+| Comandos 				| Descripcion |  Ejemplos   |
+| ------   			 	| ----------- | ----------- |
+| `ifconfig ` | Mostrar la configuración de una tarjeta de red Ethernet |`$ ifconfig eth0`|
+| `ifup` |Activar una interface . |`$ ifup eth0`|
+| `ifdown` | Deshabilitar una interface |`$ ifdown eth0`|
+| `hostname` | Mostrar el nombre del host del sistema.|`$ hostname`|
+| `host` |  Buscar el nombre del host para resolver el nombre a una dirección ip |`$ host www.ejemplo.com`|
+| `ip addr` | Mostrar interfaces conectadas con su respectiva IP |`$ ip addr`|
+| `nslookup` |  Buscar el nombre del host para resolver el nombre a una direccióm ip y viceversa |`$ nslookup www.ejemplo.com`|
+| `ip link show` | Mostar el estado de enlace de todas las interfaces. |`$ ip link show`|
+| `netstat ` | Mostrar todas las conexiones de red activas y sus PID. |`$ netstat -tup` |
 
 ```bash
 ls /Documents
 ```
+| `` |  |`$ `|
