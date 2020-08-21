@@ -132,5 +132,5 @@
 | `netstat ` | Mostrar todas las conexiones de red activas y sus PID. |`$ netstat -tup` |
 
 ::: warning
-*LINUX COMMANDS*
+*here be dragons*
 :::
